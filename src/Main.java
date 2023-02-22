@@ -6,16 +6,16 @@ public class Main {
 //        changeValue(value);
 //        System.out.println("value = " + value);
 
-//        Integer value = 22;
+//        Integer value = 33;
 //        changeValue(value);
 //        System.out.println("value = " + value);
 
 
-//        Integer[] value = {3, 4};
-//        changeValue(value);
-//        System.out.println("value = " + Arrays.toString(value));
+        Integer[] value = {3, 4};
+        changeValue(value);
+        System.out.println("value = " + Arrays.toString(value));
 
-        Person person = new Person("Alan", "Dzagoev");
+//        Person person = new Person("Alan", "Dzagoev");
 //        person.name = "Lyapis";
 //        person.surname = "Truba";
 //        System.out.println("person = " + person);
@@ -24,26 +24,24 @@ public class Main {
 
     }
 //        Задание 5
-//        public static void changeValue(int value) {
-//        value = 22;
-//        System.out.println("value = " + value);
-//    }
+//        public static int changeValue(int value) {
+//            return value = 22;
+//        }
 
 //    Задание 6
 //    public static Integer changeValue(Integer value) {
-//        return value = 33;
+//        return value = 22;
 //    }
 
 //      Задание 7
-//    public static Integer[] changeValue(Integer[] value) {
-//        return value = new Integer[]{1, 2};
+//    public static void changeValue(Integer[] value) {
+//        value = new Integer[]{1, 2};
 //    }
 
 //    Задание 8
-//    public static Integer[] changeValue(Integer[] value) {
-//        Integer[] v = new Integer[2];
-//        return new Integer[]{v[0] = 99};
-//    }
+    public static void changeValue(Integer[] value) {
+        value[0] = 99;
+    }
 
 //    Задание 9
 //public static void changeValue(Person person) {
